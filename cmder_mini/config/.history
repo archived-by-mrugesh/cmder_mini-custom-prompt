@@ -1,0 +1,29 @@
+cd Github\FreeCodeCamp\
+ls
+git --version
+git pull --rebase upstream staging
+git push origin staging
+git fetch origin
+git checkout feature/add-addtional-stats-to-about-page 
+git add --all
+git commit -S --amend --no-edit
+git push origin -f
+node server\debug-entry.js 
+git checkout staging
+git branch
+git gc --prune=now
+git status
+git lg
+git lg -n 10
+git remote prune public --dry-run
+git fetch -p
+git remote -v
+git remote remove berkeley
+git branch -a
+git config --global fetch.prune true
+git config --global fetch.prune false
+git config --global -l
+nano
+cd Github\FreeCodeCamp\
+cd Github\FreeCodeCamp\
+git lg -n 10
